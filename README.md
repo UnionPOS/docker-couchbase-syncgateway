@@ -17,7 +17,6 @@ Dockerfile for Couchbase Sync Gateway
 
 ## Quick Start
 
-## Quick Start
 
 Here's how to get started...
 
