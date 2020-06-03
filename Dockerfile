@@ -2,10 +2,10 @@ FROM unionpos/ubuntu:16.04
 
 ENV PATH $PATH:/opt/couchbase-sync-gateway/bin
 
-ARG SYNC_VERSION="2.7.0"
+ARG SYNC_VERSION="2.7.3"
 ARG SYNC_RELEASE_URL="https://packages.couchbase.com/releases/couchbase-sync-gateway"
-ARG SYNC_PACKAGE="couchbase-sync-gateway-enterprise_${SYNC_VERSION}_x86_64.deb"
-ARG SYNC_SHA256="ad16e73bca321f50769f915d73ea11df81ff47cd0bc849c43f8c64b580325f60"
+ARG SYNC_PACKAGE="couchbase-sync-gateway-community_${SYNC_VERSION}_x86_64.deb"
+ARG SYNC_SHA256="4e0306d06840c8e5a6df6984cb47feb5706df5a11058e4253eaab9d9a9044d18"
 
 # Install Sync Gateway
 RUN set -ex \
